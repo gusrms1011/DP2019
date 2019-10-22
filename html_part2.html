@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>방배성결교회 로그인창</title>
+        <style>
+            h1 {
+                margin: 0px;
+                border: 10px solid;
+                padding: 20px;
+                color:rgb(138, 77, 139);
+                }
+            h2 {color: rgb(53, 27, 146);}
+            body {color:  rgb(23, 149, 40);}
+            #font{
+                font-family: "HY중고딕";
+                font-size: 15px;
+                font-weight: bold;
+                font-variant:small-caps; 
+                }
+            #all {
+                text-align: center;
+                align-content: center;
+                }
+            #wrapper {
+                width: 500px;
+                margin: 0 auto;
+                border:1px solid #000
+                }
+        </style>
+        <div id="all">
+    </head>
+    <body>
+        <div id="font">
+        <div style="text-align :center;">
+        <h1>
+            <a href="html_part1.html"><img width="500" src="./image/방배교회.jpg"/></a>
+        </h1>
+        </div>
+        <br/>
+        <br/>
+        <h2>회원가입</h2>
+        <br/>
+        <br/>
+        <style>
+            form{
+                width:500px;
+                line-height:20px; /* 줄 간격 */
+                text-transform:uppercase; /* 대소문자 변경 */
+                vertical-align: center;
+                }
+        </style>
+        <div id="wrapper">
+            <form>
+                이름<br/>
+                <input type="text" id="form" placeholder="이름을 입력해주세요." val ue=""/>
+                <br/>
+                <br/>
+                나이<br/>
+                <input type="text" id="form" placeholder="나이를 입력해주세요." val ue=""/>
+                <br/>
+                <br/>
+                아이디<br/>
+                <input type="text" id="form" placeholder="아이디를 입력해주세요." val ue=""/>
+                <input type="button" onclick="alert('사용 가능한 아이디입니다.')" value="중복 확인"/>
+                <br/>
+                <br/>
+                비밀번호<br/>
+                <input type="text" id="form" placeholder="비밀번호를 입력해주세요." val ue=""/>
+                <br/>
+                <br/>
+                비밀번호 재입력<br/>
+                <input type="text" id="form" placeholder="다시 비밀번호를 입력해주세요." val ue=""/>
+                <br/>
+                <br/>
+                가입하게 된 계기<br/>
+            </form>
+            <form>
+                <textarea cols="50" rows="5">
+정확한 계기를 적어주세요.</textarea>
+            </form>
+            <br/>
+            <br/>
+            <form>
+                <input type="submit" onclick="alert('가입되었습니다.')" value="가입하기"/>
+            </form>
+        </div>
+        </div>
+        </div>
+    </body> 
+</html>
